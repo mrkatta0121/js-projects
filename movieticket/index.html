@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Book your ticket</title>
+</head>
+<body>
+    <section id="movielist">
+        <label>Pick a movie :</label>
+        <select id="movies">
+            <option value="350">Agyathavasi (₹350)</option>
+            <option value="300">Bramhotsavam (₹300)</option>
+            <option value="400">Aacharya(₹400)</option>
+            <option value="250">Shakthi(₹250)</option>
+        </select>
+    </section>
+    <ul id="seatindicator">
+        <li>
+            <article class="seat"></article>
+            <p>N/A</p>
+        </li>
+        <li>
+            <article class="seatselected"></article>
+            <p>Selected</p>
+        </li>
+        <li>
+            <article class="seatoccupied"></article>
+            <p>Occupied</p>
+        </li>
+    </ul>
+    <section class="hall">
+        <article id="screen"></article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seatoccupied">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seatoccupied">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seatoccupied">17</aside>
+            <aside class="seatoccupied">18</aside>
+            <aside class="seatoccupied">19</aside>
+            <aside class="seatoccupied">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seatoccupied">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seatoccupied">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seatoccupied">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+        </article>
+        <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seatoccupied">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seatoccupied">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seatoccupied">20</aside>
+        </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seatoccupied">1</aside>
+            <aside class="seatoccupied">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seatoccupied">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seatoccupied">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+            </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seatoccupied">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seat">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seat">10</aside>
+            </article>
+            <article class="column">
+            <aside class="seat">11</aside>
+            <aside class="seatoccupied">12</aside>
+            <aside class="seatoccupied">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seatoccupied">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+            </article>
+        </article>
+        <article class="row">
+            <article class="column">
+            <aside class="seat">1</aside>
+            <aside class="seat">2</aside>
+            <aside class="seat">3</aside>
+            <aside class="seatoccupied">4</aside>
+            <aside class="seat">5</aside>
+            <aside class="seat">6</aside>
+            <aside class="seat">7</aside>
+            <aside class="seat">8</aside>
+            <aside class="seat">9</aside>
+            <aside class="seatoccupied">10</aside>
+        </article>
+        <article class="column">
+            <aside class="seatoccupied">11</aside>
+            <aside class="seat">12</aside>
+            <aside class="seat">13</aside>
+            <aside class="seat">14</aside>
+            <aside class="seat">15</aside>
+            <aside class="seat">16</aside>
+            <aside class="seat">17</aside>
+            <aside class="seat">18</aside>
+            <aside class="seat">19</aside>
+            <aside class="seat">20</aside>
+        </article>
+        </article>
+    </section>
+    <p id="text">
+        You have selected <span id="count">0</span> seats for the price of ₹ <span id="total">0</span> 
+    </p>
+    <button id="submit_button"> Confirm</button>
+</body>
+<script src="./index.js"></script>
+</html>
